@@ -38,7 +38,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\Rocky\DesarrolloAplicacionesEmpresariales\Entorno01"
+=======
+VIRTUAL_ENV="C:\Users\Adrian\DesarrAppEmp(Django)\envDjangoFazt"
+>>>>>>> b2e4cb6adefb097403cd1dad9578ec17c56c7ef9
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +59,15 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
+<<<<<<< HEAD
     PS1="(Entorno01) ${PS1:-}"
     export PS1
     VIRTUAL_ENV_PROMPT="(Entorno01) "
+=======
+    PS1="(envDjangoFazt) ${PS1:-}"
+    export PS1
+    VIRTUAL_ENV_PROMPT="(envDjangoFazt) "
+>>>>>>> b2e4cb6adefb097403cd1dad9578ec17c56c7ef9
     export VIRTUAL_ENV_PROMPT
 fi
 

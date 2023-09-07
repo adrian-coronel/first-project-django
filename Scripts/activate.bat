@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\Rocky\DesarrolloAplicacionesEmpresariales\Entorno01
+=======
+set VIRTUAL_ENV=C:\Users\Adrian\DesarrAppEmp(Django)\envDjangoFazt
+>>>>>>> b2e4cb6adefb097403cd1dad9578ec17c56c7ef9
 
 if not defined PROMPT set PROMPT=$P$G
 
@@ -16,7 +20,11 @@ if defined _OLD_VIRTUAL_PROMPT set PROMPT=%_OLD_VIRTUAL_PROMPT%
 if defined _OLD_VIRTUAL_PYTHONHOME set PYTHONHOME=%_OLD_VIRTUAL_PYTHONHOME%
 
 set _OLD_VIRTUAL_PROMPT=%PROMPT%
+<<<<<<< HEAD
 set PROMPT=(Entorno01) %PROMPT%
+=======
+set PROMPT=(envDjangoFazt) %PROMPT%
+>>>>>>> b2e4cb6adefb097403cd1dad9578ec17c56c7ef9
 
 if defined PYTHONHOME set _OLD_VIRTUAL_PYTHONHOME=%PYTHONHOME%
 set PYTHONHOME=
@@ -25,7 +33,11 @@ if defined _OLD_VIRTUAL_PATH set PATH=%_OLD_VIRTUAL_PATH%
 if not defined _OLD_VIRTUAL_PATH set _OLD_VIRTUAL_PATH=%PATH%
 
 set PATH=%VIRTUAL_ENV%\Scripts;%PATH%
+<<<<<<< HEAD
 set VIRTUAL_ENV_PROMPT=(Entorno01) 
+=======
+set VIRTUAL_ENV_PROMPT=(envDjangoFazt) 
+>>>>>>> b2e4cb6adefb097403cd1dad9578ec17c56c7ef9
 
 :END
 if defined _OLD_CODEPAGE (
